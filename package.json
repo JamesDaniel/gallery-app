@@ -1,0 +1,23 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "gallery app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesDaniel/gallery-app.git"
+  },
+  "keywords": [
+    "gallery",
+    "app"
+  ],
+  "author": "JamesDaniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesDaniel/gallery-app/issues"
+  },
+  "homepage": "https://github.com/JamesDaniel/gallery-app#readme"
+}
