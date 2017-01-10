@@ -1,0 +1,17 @@
+{
+  "name": "gallery",
+  "description": "gallery app",
+  "main": "index.html",
+  "authors": [
+    "JamesDaniel"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "gallery",
+    "app"
+  ],
+  "homepage": "gallery.jamesmcgarr.me",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
