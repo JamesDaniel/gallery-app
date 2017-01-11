@@ -35,5 +35,10 @@ var stock = (function () {
             return photo.id === id;
         });
     };
+    mod.countColor = function (color) {
+        return mod.photoUrls.reduce(function (sum, photo) {
+            return photo.color === color? sum + 1: sum;
+        }, 0);
+    };
     return mod;
 }());
