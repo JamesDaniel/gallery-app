@@ -25,5 +25,10 @@ var stock = (function () {
             return !(photo.color === color);
         });
     };
+    mod.toString = function () {
+        return mod.photoUrls.map(function (photo) {
+            return 'The Url is: ' + photo.url + '. The average color is: ' + photo.color;
+        });
+    };
     return mod;
 }());
